@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <Document>
+         <!--Created with XmlGrid Free Online XML Editor (http://xmlgrid.net)-->
+         <Row id="1">
+               <city>Albuquerque, NM</city>
+               <amt>0.69</amt>
+         </Row>
+         <Row id="2">
+               <city>Arlington, TX</city>
+               <amt>13.78</amt>
+         </Row>
+         <Row id="3">
+               <city>Atlanta, GA</city>
+               <amt>20.6</amt>
+         </Row>
+         <Row id="4">
+               <city>Austin, TX</city>
+               <amt>8.94</amt>
+         </Row>
+         <Row id="5">
+               <city>Baltimore, MD</city>
+               <amt>14.49</amt>
+         </Row>
+         <Row id="6">
+               <city>Boston, MA</city>
+               <amt>1.83</amt>
+         </Row>
+         <Row id="7">
+               <city>Charlotte, NC</city>
+               <amt>14.71</amt>
+         </Row>
+         <Row id="8">
+               <city>Chicago, IL</city>
+               <amt>7.67</amt>
+         </Row>
+         <Row id="9">
+               <city>Cleveland, OH</city>
+               <amt>8.95</amt>
+         </Row>
+         <Row id="10">
+               <city>Colorado Springs, CO</city>
+               <amt>3.51</amt>
+         </Row>
+         <Row id="11">
+               <city>Columbis, OH</city>
+               <amt>12.41</amt>
+         </Row>
+         <Row id="12">
+               <city>Dallas, TX</city>
+               <amt>13.39</amt>
+         </Row>
+         <Row id="13">
+               <city>Denver, CO</city>
+               <amt>5.92</amt>
+         </Row>
+         <Row id="14">
+               <city>Detroit, MI</city>
+               <amt>12.68</amt>
+         </Row>
+         <Row id="15">
+               <city>El Paso, TX</city>
+               <amt>0.8</amt>
+         </Row>
+         <Row id="16">
+               <city>Fort Worth, TX</city>
+               <amt>11.47</amt>
+         </Row>
+         <Row id="17">
+               <city>Fresno, CA</city>
+               <amt>2.32</amt>
+         </Row>
+         <Row id="18">
+               <city>Houston, TX</city>
+               <amt>6.26</amt>
+         </Row>
+         <Row id="19">
+               <city>Indianapolis, IN</city>
+               <amt>16.74</amt>
+         </Row>
+         <Row id="20">
+               <city>Jacksonville, FL</city>
+               <amt>19.18</amt>
+         </Row>
+         <Row id="21">
+               <city>Kansas City, MO</city>
+               <amt>19.5</amt>
+         </Row>
+         <Row id="22">
+               <city>Las Vegas, NV</city>
+               <amt>0.61</amt>
+         </Row>
+         <Row id="23">
+               <city>Long Beach, CA</city>
+               <amt>2.88</amt>
+         </Row>
+         <Row id="24">
+               <city>Los Angeles, CA</city>
+               <amt>2.61</amt>
+         </Row>
+         <Row id="25">
+               <city>Louisville, KY</city>
+               <amt>18.13</amt>
+         </Row>
+         <Row id="26">
+               <city>Memphis, TN</city>
+               <amt>34.52</amt>
+         </Row>
+         <Row id="27">
+               <city>Mesa, AZ</city>
+               <amt>3.47</amt>
+         </Row>
+         <Row id="28">
+               <city>Miami, FL</city>
+               <amt>16.18</amt>
+         </Row>
+         <Row id="29">
+               <city>Milwaukee, WI</city>
+               <amt>22.47</amt>
+         </Row>
+         <Row id="30">
+               <city>Minneapolis, MN</city>
+               <amt>15.07</amt>
+         </Row>
+         <Row id="31">
+               <city>Nashville, TN</city>
+               <amt>18.55</amt>
+         </Row>
+         <Row id="32">
+               <city>New York, NY</city>
+               <amt>19.21</amt>
+         </Row>
+         <Row id="33">
+               <city>Oakland, CA</city>
+               <amt>1.58</amt>
+         </Row>
+         <Row id="34">
+               <city>Oklahoma City, OK</city>
+               <amt>22.22</amt>
+         </Row>
+         <Row id="35">
+               <city>Omaha, NE</city>
+               <amt>11.52</amt>
+         </Row>
+         <Row id="36">
+               <city>Philadelphia, PA</city>
+               <amt>15.46</amt>
+         </Row>
+         <Row id="37">
+               <city>Phoenix, AZ</city>
+               <amt>3.42</amt>
+         </Row>
+         <Row id="38">
+               <city>Portland, OR</city>
+               <amt>12.06</amt>
+         </Row>
+         <Row id="39">
+               <city>Raleigh, NC</city>
+               <amt>19.03</amt>
+         </Row>
+         <Row id="40">
+               <city>Sacramento, CA</city>
+               <amt>5.08</amt>
+         </Row>
+         <Row id="41">
+               <city>San Antonio, TX</city>
+               <amt>16.1</amt>
+         </Row>
+         <Row id="42">
+               <city>San Diego, CA</city>
+               <amt>3.33</amt>
+         </Row>
+         <Row id="43">
+               <city>San Francisco, CA</city>
+               <amt>2.94</amt>
+         </Row>
+         <Row id="44">
+               <city>San Jose, CA</city>
+               <amt>2.22</amt>
+         </Row>
+         <Row id="45">
+               <city>Seattle, WA</city>
+               <amt>13.46</amt>
+         </Row>
+         <Row id="46">
+               <city>Tucson, AZ</city>
+               <amt>2.58</amt>
+         </Row>
+         <Row id="47">
+               <city>Tulsa, OK</city>
+               <amt>18.95</amt>
+         </Row>
+         <Row id="48">
+               <city>Virginia Beach, VA</city>
+               <amt>20.36</amt>
+         </Row>
+         <Row id="49">
+               <city>Washingon, DC</city>
+               <amt>10.79</amt>
+         </Row>
+         <Row id="50">
+               <city>Wichita, KS</city>
+               <amt>12.46</amt>
+         </Row>
+   </Document>
