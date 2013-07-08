@@ -1,56 +1,66 @@
-<!DOCTYPE html>
 
 <html>
 <head>
     <title>Precipitation Totals</title>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
-    <script src="js/xmlDom.js"></script>
-    
+    <!--<script src="js/xmlDom.js"></script>-->
+    <link rel="stylesheet" href="css/animate.css" />
     <script type="text/javascript">
-   var cityID;
-   var city;
-   var amt;
-	
-	
-    $(document).ready(function() {
-        
-          
-	$.ajax({
-		type: "GET",
-		url: "data/precipData.xml",
-		dataType: "xml",
-		success: makeItRain
-		});
-	});
-        
-	
-	function makeItRain(xml) {
-		
-	$(xml).find("Row").each(function(){
-		
-		cityID = $(this).attr("id");
-		city = $(this).find("city").text();
-                amt = $(this).find("amt").text();
-        
-        $('<option>' + city + '</option>').appendTo('.selectCity');
-        console.log('appending');
-        
-        $(".selectCity").change(function() {
-                
-            $('select option:selected', this).append(cityID);
-                $(".name").append(city);
-                console.log('city');
-                $(".ammount").append(amt);
-                console.log('amt');
-           
-          });
-          //.change();
-        
-        
-        });
-    };
+var cityID;
+var city;
+var amt;
+
+
+$(document).ready(function() {
+
+
+$.ajax({
+    type: "GET",
+    url: "data/precipData.xml",
+    dataType: "xml",
+    success: makeItRain
+    });
+});
+
+
+function makeItRain(xml) {
+
+$(xml).find("Row").each(function(){
+
+    cityID = $(this).attr("id");
+    city = $(this).find("city").text();
+    amt = parseFloat($(this).find("amt").text());
+
+    $('<option id="' + cityID + '">' + city + '</option>').appendTo('.selectCity');
+    console.log('appending');
+    var object = document.getElementById("A1");
+    object.setAttribute("height", (amt*10));
+
+    $(".selectCity").change(function() {
+
+        $('option:selected', this).attr('id');
+            $(".name").html(city);
+            console.log('city');
+            $(".ammount").html(amt);
+            console.log('amt');
+      });
+
+
+    });
+};
 </script>
+    
+<style>
+    rect{
+        fill: #74B6E3;
+        transition-property: fill;
+        transition-duration: 3s;
+	
+    }
+</style>
+
+    
 </head>
 
 <body>
@@ -65,8 +75,19 @@
     <div class="ammount">
         
     </div>
+    <div id="svg">
+    <svg>
+      <rect id="A1" x="10" y="10" width="25" height="25" fill="blue">
+
+      </rect>
+    </svg>
+    </div>
 </body>
 
-
+<script>
+    $('.selectCity').change(function() {
+                        $('#svg').addClass("animatedSlow fadeInUp");
+                });
+</script>
 
 </html>
