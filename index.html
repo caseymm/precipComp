@@ -6,6 +6,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
     <!--<script src="js/xmlDom.js"></script>-->
     <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/rain.css" />
     <script type="text/javascript">
 var cityID;
 var city;
@@ -32,61 +33,96 @@ $(xml).find("Row").each(function(){
     city = $(this).find("city").text();
     amt = parseFloat($(this).find("amt").text());
 
-    $('<option id="' + cityID + '">' + city + '</option>').appendTo('.selectCity');
-    console.log('appending');
-    var object = document.getElementById("A1");
-    object.setAttribute("height", (amt*10));
+    $('<option value="' + amt + '" id="' + cityID + '">' + city + '</option>').appendTo('.selectCity');
+		console.log('appending');
+    $('<option value="' + amt + '" id="' + cityID + '">' + city + '</option>').appendTo('.selectCityB');
 
-    $(".selectCity").change(function() {
+    
+    });
 
-        $('option:selected', this).attr('id');
-            $(".name").html(city);
-            console.log('city');
-            $(".ammount").html(amt);
-            console.log('amt');
-      });
-
-
+    $(".selectCity").change(function()
+    {
+        var sel = $(this).children("option:selected");
+        city = sel.text();
+        amt = sel.attr("value");
+        $(".name").html(city);
+        $(".ammount").html(amt + " in. ");
+        var object = document.getElementById("A1");
+        object.setAttribute("height", (amt*10));
+    });
+    
+    $(".selectCityB").change(function()
+    {
+        var sel = $(this).children("option:selected");
+        city = sel.text();
+        amt = sel.attr("value");
+        $(".nameB").html(city);
+        $(".ammountB").html(amt + " in. ");
+        var object = document.getElementById("B1");
+        object.setAttribute("height", (amt*10));
     });
 };
 </script>
-    
-<style>
-    rect{
-        fill: #74B6E3;
-        transition-property: fill;
-        transition-duration: 3s;
-	
-    }
-</style>
 
     
 </head>
 
 <body>
-
-    <select class="selectCity">
-                    <option id="default">Select a city</option>
-                    
-    </select>
-    <div class="name">
+    <span class="left">
+        <select class="selectCity">
+                        <option id="default">Select a city</option>
+                        
+        </select>
+        <div class="name">
+            
+        </div>
+        <div class="ammount">
+            
+        </div>
         
-    </div>
-    <div class="ammount">
-        
-    </div>
-    <div id="svg">
-    <svg>
-      <rect id="A1" x="10" y="10" width="25" height="25" fill="blue">
-
-      </rect>
-    </svg>
-    </div>
+        <div id="svg">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px"
+                 height="300px" viewBox="0 0 120 300" enable-background="new 0 0 120 300" xml:space="preserve">
+        <g id="Layer_1">
+                <rect id="A1" x="24.333" y="81" fill="#00AEEF" width="71.333" height="0"/>
+        </g>
+        <g id="Layer_2">
+                <rect x="24.333" y="40.333" fill="none" stroke="#000000" stroke-miterlimit="10" width="71.333" height="246"/>
+                <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="95.667" y1="69.667" x2="77" y2="69.667"/>
+                <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="95.667" y1="101" x2="77" y2="101"/>
+                <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="95.667" y1="125.667" x2="77" y2="125.667"/>
+        </g>
+                </svg>
+        </div>
+    </span>
+    
+    <span class="right">
+        <select class="selectCityB">
+                        <option id="default">Select a city</option>
+                        
+        </select>
+        <div class="nameB">
+            
+        </div>
+        <div class="ammountB">
+            
+        </div>
+        <div id="svgB">
+        <svg>
+          <rect id="B1" x="10" y="10" width="25" height="0" fill="blue">
+    
+          </rect>
+        </svg>
+        </div>
+    </span>
 </body>
 
 <script>
     $('.selectCity').change(function() {
                         $('#svg').addClass("animatedSlow fadeInUp");
+                });
+    $('.selectCityB').change(function() {
+                        $('#svgB').addClass("animatedSlow fadeInDown");
                 });
 </script>
 
