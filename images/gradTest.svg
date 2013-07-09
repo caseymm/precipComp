@@ -1,15 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px"
-	 height="300px" viewBox="0 0 120 300" enable-background="new 0 0 120 300" xml:space="preserve">
-<g id="Layer_1">
-	<rect x="24.333" y="277" fill="#00AEEF" width="71.333" height="9.333"/>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="225px" height="594.263px" viewBox="0 -144.263 225 594.263" enable-background="new 0 -144.263 225 594.263"
+	 xml:space="preserve">
+<g id="Layer_1_1_">
+	<g id="Layer_2">
+		<path id="pathA" fill="none" d="M0,381.575v-525.838"/>
+		<polygon id="A1" fill="#87D3F6" points="79.667,381.575 145.167,381.575 145.167,381.575 		">
+		<animateMotion  fill="remove" id="A2" accumulate="none" dur="4s" additive="replace" restart="always" calcMode="paced">
+			<mpath  xlink:href="#pathA"></mpath>
+		</animateMotion>
+		</polygon>
+		<rect x="44.333" y="408.137" fill="#FFFFFF" width="131.333" height="41.863"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M146.288-112.576v519.527l4.153,15.453
+			l20.949,13.082v8.316H50.942v-7.131l21.167-15.452l6.376-13.081v-520.715c0,0,1.876-15.444-7.114-14.465
+			c0.25-5.54,0.25-6.845,0.25-6.845h90.398l-0.498,6.52C161.521-127.366,146.288-126.797,146.288-112.576z"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="71.372" y1="-127.042" x2="157.525" y2="-127.042"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="78.486" y1="408.137" x2="146.288" y2="408.137"/>
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="71.214" y1="421.87" x2="150.441" y2="421.87"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="50.942" y1="436.671" x2="171.393" y2="436.671"/>
+		<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="135.303,421.87 141.545,436.671 
+			141.545,443.802 		"/>
+		<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="89.352,421.87 83.109,436.671 
+			83.109,443.802 		"/>
+	</g>
 </g>
-<g id="Layer_2">
-	<rect x="24.333" y="40.333" fill="none" stroke="#000000" stroke-miterlimit="10" width="71.333" height="246"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="95.667" y1="69.667" x2="77" y2="69.667"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="95.667" y1="101" x2="77" y2="101"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="95.667" y1="125.667" x2="77" y2="125.667"/>
-</g>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="42.243" x2="146.288" y2="42.243"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="57.265" x2="146.288" y2="57.265"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="72.287" x2="146.288" y2="72.287"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="87.309" x2="146.288" y2="87.309"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="102.33" x2="146.288" y2="102.33"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="117.353" x2="146.288" y2="117.353"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="132.375" x2="146.288" y2="132.375"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="147.397" x2="146.288" y2="147.397"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="162.419" x2="146.288" y2="162.419"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="177.441" x2="146.288" y2="177.441"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="192.463" x2="146.288" y2="192.463"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="207.485" x2="146.288" y2="207.485"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="222.508" x2="146.288" y2="222.508"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="237.529" x2="146.288" y2="237.529"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="252.553" x2="146.288" y2="252.553"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="267.573" x2="146.288" y2="267.573"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="282.598" x2="146.288" y2="282.598"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="297.618" x2="146.288" y2="297.618"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="312.641" x2="146.288" y2="312.641"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="327.663" x2="146.288" y2="327.663"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="342.686" x2="146.288" y2="342.686"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="357.706" x2="146.288" y2="357.706"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="372.729" x2="146.288" y2="372.729"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="387.751" x2="146.288" y2="387.751"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="402.522" x2="146.288" y2="402.522"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="50.254" x2="146.148" y2="50.254"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="65.276" x2="146.148" y2="65.276"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="80.299" x2="146.148" y2="80.299"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="95.321" x2="146.148" y2="95.321"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="110.343" x2="146.148" y2="110.343"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="125.365" x2="146.148" y2="125.365"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="140.387" x2="146.148" y2="140.387"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="155.409" x2="146.148" y2="155.409"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="170.431" x2="146.148" y2="170.431"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="185.454" x2="146.148" y2="185.454"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="200.476" x2="146.148" y2="200.476"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="215.498" x2="146.148" y2="215.498"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="230.52" x2="146.148" y2="230.52"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="245.542" x2="146.148" y2="245.542"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="260.564" x2="146.148" y2="260.564"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="275.587" x2="146.148" y2="275.587"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="290.609" x2="146.148" y2="290.609"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="305.631" x2="146.148" y2="305.631"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="320.652" x2="146.148" y2="320.652"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="335.675" x2="146.148" y2="335.675"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="350.697" x2="146.148" y2="350.697"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="365.719" x2="146.148" y2="365.719"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="380.742" x2="146.148" y2="380.742"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="395.764" x2="146.148" y2="395.764"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="410.533" x2="146.148" y2="410.533"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="387.751" x2="90.948" y2="387.751"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="359.209" x2="90.948" y2="359.209"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="329.166" x2="90.948" y2="329.166"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="299.122" x2="90.948" y2="299.122"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="270.582" x2="90.948" y2="270.582"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="240.536" x2="90.948" y2="240.536"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="211.997" x2="90.948" y2="211.997"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="181.953" x2="90.948" y2="181.953"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="151.342" x2="90.948" y2="151.342"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="122.237" x2="90.948" y2="122.237"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="93.508" x2="90.948" y2="93.508"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="63.275" x2="90.948" y2="63.275"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="33.981" x2="90.948" y2="33.981"/>
+<text transform="matrix(1.0153 0 0 1 157.5264 350.6943)" font-family="'Helvetica'" font-size="18.0265">5 in.</text>
+<text transform="matrix(1.0153 0 0 1 157.5264 274.0801)" font-family="'Helvetica'" font-size="18.0265">10 in.</text>
+<text transform="matrix(1.0153 0 0 1 158.2451 199.2207)" font-family="'Helvetica'" font-size="18.0265">15 in.</text>
+<text transform="matrix(1.0153 0 0 1 158.4365 122.2354)" font-family="'Helvetica'" font-size="18.0265">20 in.</text>
+<text transform="matrix(1.0153 0 0 1 158.2461 49.752)" font-family="'Helvetica'" font-size="18.0265">25 in.</text>
+<text transform="matrix(1.0153 0 0 1 14.8604 363.7119)" font-family="'Helvetica'" font-size="18.0265">10 cm</text>
+<text transform="matrix(1.0153 0 0 1 14.6523 303.627)" font-family="'Helvetica'" font-size="18.0265">20 cm</text>
+<text transform="matrix(1.0153 0 0 1 14.6523 245.0449)" font-family="'Helvetica'" font-size="18.0265">30 cm</text>
+<text transform="matrix(1.0153 0 0 1 14.4473 186.9551)" font-family="'Helvetica'" font-size="18.0265">40 cm</text>
+<text transform="matrix(1.0153 0 0 1 14.2393 126.8652)" font-family="'Helvetica'" font-size="18.0265">50 cm</text>
+<text transform="matrix(1.0153 0 0 1 14.0322 66.7773)" font-family="'Helvetica'" font-size="18.0265">60 cm</text>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="-109.23" x2="146.288" y2="-109.23"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="-94.208" x2="146.288" y2="-94.208"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="-79.186" x2="146.288" y2="-79.186"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="-64.164" x2="146.288" y2="-64.164"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="-49.143" x2="146.288" y2="-49.143"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="-34.12" x2="146.288" y2="-34.12"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="-19.098" x2="146.288" y2="-19.098"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="-4.077" x2="146.288" y2="-4.077"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="10.946" x2="146.288" y2="10.946"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.596" y1="25.968" x2="146.288" y2="25.968"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="-101.219" x2="146.148" y2="-101.219"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="-86.197" x2="146.148" y2="-86.197"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="-71.174" x2="146.148" y2="-71.174"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="-56.152" x2="146.148" y2="-56.152"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="-41.13" x2="146.148" y2="-41.13"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="-26.108" x2="146.148" y2="-26.108"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="-11.086" x2="146.148" y2="-11.086"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="3.936" x2="146.148" y2="3.936"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="18.958" x2="146.148" y2="18.958"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="136.943" y1="33.981" x2="146.148" y2="33.981"/>
+<text transform="matrix(1.0153 0 0 1 157.5254 -28.248)" font-family="'Helvetica'" font-size="18.0265">30 in.</text>
+<text transform="matrix(1.0153 0 0 1 157.5254 -103.748)" font-family="'Helvetica'" font-size="18.0265">35 in.</text>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="6.256" x2="90.948" y2="6.256"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="-22.473" x2="90.948" y2="-22.473"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="-52.706" x2="90.948" y2="-52.706"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="78.486" y1="-82" x2="90.948" y2="-82"/>
+<text transform="matrix(1.0153 0 0 1 14.8604 9.2773)" font-family="'Helvetica'" font-size="18.0265">70 cm</text>
+<text transform="matrix(1.0153 0 0 1 14.8604 -49.1431)" font-family="'Helvetica'" font-size="18.0265">80 cm</text>
 </svg>

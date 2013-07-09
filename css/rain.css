@@ -8,31 +8,146 @@ rect{
 p{
     font-family:'Helvetica';
     font-size:13px;
+    line-height:1px;
+}
+
+h1{
+    font-family:'Helvetica';
+    font-size:26px;
+    text-align:center;
+}
+
+option{
+    font-size:18px;
+    height:30px;
 }
 
 .name, .nameB{
     font-family:'Helvetica';
-    font-size:13px;
+    font-size:28px;
 }
 
 .ammount, .ammountB{
     font-family:'Helvetica';
-    font-size:13px;
+    font-size:22px;
 }
 
 .meters, .metersB{
     font-family:'Helvetica';
-    font-size:13px;
+    font-size:22px;
 }
 
 .left{
     float:left;
     width:50%;
     height:300px;
+    text-align:center;
 }
 
 .right{
     float:right;
     width:50%;
     height:300px;
+    text-align:center;
+}
+
+.boxes, .boxesB{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.rounded{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+}
+
+.border, .borderB{
+    border-color: #f7f7f7;
+    border-style:solid;
+    border-width:2px;
+}
+
+.borderRed, .borderRedB{
+    border-color: #C20A13;
+    border-style:solid;
+    border-width:2px;
+}
+
+.borderBlue, .borderBlueB{
+    border-color: #0716BA;
+    border-style:solid;
+    border-width:2px;
+}
+
+.borderTop, .borderTopB{
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.borderBottom, .borderBottomB{
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px; 
+    border-radius: 0px 0px 5px 5px; 
+}
+
+.shadow{
+    -webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.red, .redB{
+    float:left;
+    width:40%;
+    background-color: #C20A13;
+    color:#fff;
+    margin-right: 8.3%;
+    margin-left: 4.7%;
+}
+
+.white, .white2{
+    float:left;
+    width:40%;
+    background-color: #fff;
+    color:#000;
+    margin-right: 8.3%;
+    margin-left: 4.7%;
+}
+
+.whiteB, .whiteB2{
+    float:left;
+    width:40%;
+    background-color: #fff;
+    color:#000;
+}
+
+.blue, .blueB{
+    float:left;
+    width:40%;
+    background-color: #0716BA;
+    color:#fff;
+   
+}
+
+select{
+    width: 90%;
+    height: 40px;
+    font-size: 22px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 10px;
+    color: #fff;
+    background-color: #373737;
+    border:0;    
+}
+
+#cylA{
+    margin-top: 100px;
+    position:relative;
+}
+#cylB{
+    margin-top: 100px;
+    position:relative;
 }
