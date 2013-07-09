@@ -2,28 +2,33 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="225px"
-	 height="450px" viewBox="0 0 225 450" enable-background="new 0 0 225 450" xml:space="preserve">
-<g id="Layer_1">
-	<g id="Layer_2">
-		<rect x="79.667" y="398.501" fill="#87D3F6" width="65.5" height="19.101"/>
-		<rect x="44.333" y="418.492" fill="#FFFFFF" width="131.333" height="31.508"/>
-	</g>
+	 height="450px" viewBox="0 0 225 444" enable-background="new 0 0 225 450" xml:space="preserve">
+<g id="Layer_2">
 	<g>
-		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M146.288,26.586v391.015l4.154,11.629
+		<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M146.288,26.586v391.015l4.154,11.629
 			l20.949,9.846v6.26H50.942v-5.367l21.167-11.63l6.376-9.846V26.586c0,0,1.876-11.624-7.114-10.888
 			c0.25-4.169,0.25-5.151,0.25-5.151h90.398l-0.498,4.907C161.522,15.454,146.288,15.883,146.288,26.586z"/>
-		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="71.372" y1="15.698" x2="157.525" y2="15.698"/>
 		
-			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="78.486" y1="418.492" x2="146.288" y2="418.492"/>
+			<line fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="71.372" y1="15.698" x2="157.525" y2="15.698"/>
 		
-			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="71.214" y1="428.829" x2="150.442" y2="428.829"/>
+			<line fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="78.486" y1="418.492" x2="146.288" y2="418.492"/>
 		
-			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="50.942" y1="439.968" x2="171.392" y2="439.968"/>
-		<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="135.303,428.829 141.545,439.968 
+			<line fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="71.214" y1="428.829" x2="150.442" y2="428.829"/>
+		
+			<line fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="50.942" y1="439.968" x2="171.392" y2="439.968"/>
+		<polyline fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="135.303,428.829 141.545,439.968 
 			141.545,445.335 		"/>
-		<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="89.352,428.829 83.109,439.968 
+		<polyline fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="89.352,428.829 83.109,439.968 
 			83.109,445.335 		"/>
 	</g>
+</g>
+<g id="Layer_1">
+	<path id="pathB" d="M 0 398.5 l 0 -398.5" stroke="none" stroke-width="0" fill="none" />
+	<rect id="B1" x="78.486" y="398.5" fill="#87D3F6" width="67.802" height="0">
+            <animateMotion dur="3s" repeatCount="once"  >
+                <mpath xlink:href="#pathB"/>
+            </animateMotion>
+        </rect>
 </g>
 <g id="Layer_3">
 	<g>

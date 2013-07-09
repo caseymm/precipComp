@@ -5,7 +5,14 @@
 	 height="450px" viewBox="0 0 225 450" enable-background="new 0 0 225 450" xml:space="preserve">
 <g id="Layer_1">
 	<g id="Layer_2">
-		<rect x="79.667" y="398.501" fill="#87D3F6" width="65.5" height="19.101"/>
+		
+		<path id="path1" d="M 0 398.501 l 0 -395.764" stroke="none" stroke-width="0" fill="none" />
+		
+		<rect id="B1" x="79.667" y="398.501" fill="#87D3F6" width="65.5" height="0">
+				<animateMotion dur="3s" repeatCount="once"  >
+			<mpath xlink:href="#path1"/>
+				</animateMotion>
+			</rect>
 		<rect x="44.333" y="418.492" fill="#FFFFFF" width="131.333" height="31.508"/>
 	</g>
 	<g>

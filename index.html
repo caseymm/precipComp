@@ -56,7 +56,7 @@ $(xml).find("Row").each(function(){
         $(".meters").html(metric + " cm ");
         var object = document.getElementById("A1");
         object.setAttribute("height", (amt*15));
-        object.setAttribute("y", (22+(395.764-amt*15)));
+        object.setAttribute("y", (15+(398.501-amt*15)));
     });
     
     $(".selectCityB").change(function()
@@ -70,7 +70,7 @@ $(xml).find("Row").each(function(){
         $(".metersB").html(metric + " cm ");
         var object = document.getElementById("B1");
         object.setAttribute("height", (amt*15));
-        object.setAttribute("y", (22+(395.764-amt*15)));
+        object.setAttribute("y", (15+(398.501-amt*15)));
     });
 };
 </script>
@@ -97,10 +97,18 @@ $(xml).find("Row").each(function(){
         <div id="svg">
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="225px"
 	 height="450px" viewBox="0 0 225 450" enable-background="new 0 0 225 450" xml:space="preserve">
-<g id="Layer_2">
-	<rect id="A1" x="78.486" y="395.764" fill="#87D3F6" width="67.802" height="0"/>
-</g>
 <g id="Layer_1">
+	<g id="Layer_2">
+		
+		<path id="pathA" d="M 0 398.501 l 0 -395.764" stroke="none" stroke-width="0" fill="none" />
+		
+		<rect id="A1" x="79.667" y="398.501" fill="#87D3F6" width="65.5" height="0">
+				<animateMotion dur="3s" repeatCount="once"  >
+			<mpath xlink:href="#pathA"/>
+				</animateMotion>
+			</rect>
+		<rect x="44.333" y="418.492" fill="#FFFFFF" width="131.333" height="31.508"/>
+	</g>
 	<g>
 		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M146.288,26.586v391.015l4.154,11.629
 			l20.949,9.846v6.26H50.942v-5.367l21.167-11.63l6.376-9.846V26.586c0,0,1.876-11.624-7.114-10.888
@@ -117,6 +125,8 @@ $(xml).find("Row").each(function(){
 		<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="89.352,428.829 83.109,439.968 
 			83.109,445.335 		"/>
 	</g>
+</g>
+<g id="Layer_3">
 	<g>
 		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.595" y1="42.243" x2="146.288" y2="42.243"/>
 		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.595" y1="57.265" x2="146.288" y2="57.265"/>
@@ -218,16 +228,19 @@ $(xml).find("Row").each(function(){
         </div>
         <div id="svgB">
          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="225px"
-	 height="450px" viewBox="0 0 225 444" enable-background="new 0 0 225 450" xml:space="preserve">
-<g id="Layer_2">
-        <path id="path1" d="M 0 395.764 l 0 -395.764" stroke="none" stroke-width="0" fill="none" />
-	<rect id="B1" x="78.486" y="395.764" fill="#87D3F6" width="67.802" height="0">
-            <animateMotion dur="3s" repeatCount="once"  >
-                <mpath xlink:href="#path1"/>
-            </animateMotion>
-        </rect>
-</g>
+	 height="450px" viewBox="0 0 225 450" enable-background="new 0 0 225 450" xml:space="preserve">
 <g id="Layer_1">
+	<g id="Layer_2">
+		
+		<path id="path1" d="M 0 398.501 l 0 -395.764" stroke="none" stroke-width="0" fill="none" />
+		
+		<rect id="B1" x="79.667" y="398.501" fill="#87D3F6" width="65.5" height="0">
+				<animateMotion dur="3s" repeatCount="once"  >
+			<mpath xlink:href="#path1"/>
+				</animateMotion>
+			</rect>
+		<rect x="44.333" y="418.492" fill="#FFFFFF" width="131.333" height="31.508"/>
+	</g>
 	<g>
 		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M146.288,26.586v391.015l4.154,11.629
 			l20.949,9.846v6.26H50.942v-5.367l21.167-11.63l6.376-9.846V26.586c0,0,1.876-11.624-7.114-10.888
@@ -244,6 +257,8 @@ $(xml).find("Row").each(function(){
 		<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="89.352,428.829 83.109,439.968 
 			83.109,445.335 		"/>
 	</g>
+</g>
+<g id="Layer_3">
 	<g>
 		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.595" y1="42.243" x2="146.288" y2="42.243"/>
 		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.595" y1="57.265" x2="146.288" y2="57.265"/>
