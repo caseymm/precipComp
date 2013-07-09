@@ -10,22 +10,17 @@ p{
     font-size:13px;
 }
 
-.name{
+.name, .nameB{
     font-family:'Helvetica';
     font-size:13px;
 }
 
-.ammount{
+.ammount, .ammountB{
     font-family:'Helvetica';
     font-size:13px;
 }
 
-.nameB{
-    font-family:'Helvetica';
-    font-size:13px;
-}
-
-.ammountB{
+.meters, .metersB{
     font-family:'Helvetica';
     font-size:13px;
 }
