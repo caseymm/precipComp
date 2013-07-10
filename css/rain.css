@@ -1,3 +1,7 @@
+body{
+	margin:0px;
+}
+
 rect{
         /*fill: #74B6E3;*/
         transition-property: fill;
@@ -103,7 +107,7 @@ option{
     width:40%;
     background-color: #C20A13;
     color:#fff;
-    margin-right: 8.3%;
+    margin-right: 7.6%;
     margin-left: 4.7%;
 }
 
@@ -112,7 +116,7 @@ option{
     width:40%;
     background-color: #fff;
     color:#000;
-    margin-right: 8.3%;
+    margin-right: 7.6%;
     margin-left: 4.7%;
 }
 
@@ -157,7 +161,7 @@ select{
 	float: right;
 	margin-right: 5%;
 	color:#fff;
-	background-image: url(../images/arrow.png);
+	background-image: url(../images/arrowB.png);
 	width: 25px;
 	height: 16.25px;
 	position: absolute;
