@@ -140,7 +140,8 @@ select{
     padding-left: 10px;
     color: #fff;
     background-color: #373737;
-    border:0;    
+    border:0;
+    cursor: pointer;
 }
 
 #cylA{
@@ -150,4 +151,18 @@ select{
 #cylB{
     margin-top: 100px;
     position:relative;
+}
+
+.arrow{
+	float: right;
+	margin-right: 5%;
+	color:#fff;
+	background-image: url(../images/arrow.png);
+	width: 25px;
+	height: 16.25px;
+	position: absolute;
+	z-index: 1000;
+	margin-left: -55px;
+	margin-top: 13px;
+	pointer-events:none;
 }

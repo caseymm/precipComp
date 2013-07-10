@@ -55,6 +55,7 @@ $(xml).find("Row").each(function(){
     
     });
 
+    
     $(".selectCity").change(function()
     {
         var sel = $(this).children("option:selected");
@@ -67,13 +68,14 @@ $(xml).find("Row").each(function(){
         var object = document.getElementById("A1");
         object.setAttribute("height", (amt*15));
         object.setAttribute("y", (9+(397-amt*15)));
-        //var animation = document.getElementById("A2");
-        //animation.setAttribute("dur", (3+"s"));
+        var animation = document.getElementById("A2");
+        animation.setAttribute("begin", "activateEvent");
         $('#cylA').show();
         $('.red').show();
         $('.blue').show();
         $('.borderRed').show();
         $('.borderBlue').show();
+        //$('.selectCity').load('#cylA', function() {});
     });
     
     $(".selectCityB").change(function()
@@ -93,8 +95,10 @@ $(xml).find("Row").each(function(){
         $('.blueB').show();
         $('.borderRedB').show();
         $('.borderBlueB').show();
-        
+        //$('#cylB').load('#cylB', function() {});
     });
+    
+
 };
 </script>
 
@@ -109,6 +113,7 @@ $(xml).find("Row").each(function(){
                         <option id="default">Select a city</option>
                         
         </select>
+        <span class="arrow"></span>
         <!--<div class="red shadow border rounded">
             <span class="name">
                 
@@ -145,7 +150,7 @@ $(xml).find("Row").each(function(){
 	<g id="Layer_2">
 		<path id="pathA" d="M 0 594.263 l 0 -594.263" stroke="none" stroke-width="0" fill="none"/>
 		<rect id="A1" x="79.667" y="398.501" fill="#87D3F6" width="65.5" height="0">
-		<animateMotion  fill="remove" id="A2" accumulate="none" dur="4s" additive="replace" restart="always" calcMode="paced">
+		<animateMotion repeatCount="1" id="A2" accumulate="none" begin="0s" dur="4s" restart="always" >
 			<mpath  xlink:href="#pathA"></mpath>
 		</animateMotion>
 		</rect>
@@ -282,6 +287,7 @@ $(xml).find("Row").each(function(){
                         <option id="default">Select a city</option>
                         
         </select>
+        <span class="arrow"></span>
         <!--<div class="blue shadow border rounded">
             <span class="nameB">
                 
@@ -319,7 +325,7 @@ $(xml).find("Row").each(function(){
 	<g id="Layer_2">
 		<path id="pathB" d="M 0 594.263 l 0 -594.263" stroke="none" stroke-width="0" fill="none"/>
 		<rect id="B1" x="79.667" y="398.501" fill="#87D3F6" width="65.5" height="0">
-		<animateMotion  fill="remove" id="A2" accumulate="none" dur="4s" additive="replace" restart="always" calcMode="paced">
+		<animateMotion fill="freeze" id="B2" accumulate="none" dur="4s" additive="replace" restart="always" calcMode="paced">
 			<mpath  xlink:href="#pathB"></mpath>
 		</animateMotion>
 		</rect>
