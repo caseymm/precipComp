@@ -1,28 +1,116 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9">
-    
 <html>
-    
-    <!--[if lte IE 8]>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
-    <script src="js/precipIE8.js"></script>
-    
-    <!--<![endif]-->
-    
-    <!--[if IE 9]>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
-    <script src="js/precipIE.js"></script>
-    
-    <!--<![endif]--> 
 <head>
     <title>Precipitation Totals</title>
     
-    
-    <![if gt IE 9]>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
-    <script type="text/javascript" src="js/precip.js"></script>
-    <![endif]>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <!--<script src="js/xmlDom.js"></script>-->
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/rain.css" />
+    <script type="text/javascript">
+var cityID;
+var city;
+var amt;
+var metric;
+
+
+$(document).ready(function() {
+
+$('#cylA').hide();
+$('#cylB').hide();
+$('.red').hide();
+$('.blue').hide();
+$('.borderRed').hide();
+$('.borderBlue').hide();
+$('.redB').hide();
+$('.blueB').hide();
+$('.borderRedB').hide();
+$('.borderBlueB').hide();
+
+$.ajax({
+    type: "GET",
+    url: "data/precipData.xml",
+    dataType: "xml",
+    success: makeItRain
+    });
+});
+
+function precise_round(num,decimals){
+return Math.round(num*Math.pow(10,decimals))/Math.pow(10,decimals);
+}
+
+function makeItRain(xml) {
+
+$(xml).find("Row").each(function(){
+
+    cityID = $(this).attr("id");
+    city = $(this).find("city").text();
+    amt = parseFloat($(this).find("amt").text());
+    
+
+    $('<option value="' + amt + '" id="' + cityID + '">' + city + '</option>').appendTo('.selectCity');
+		console.log('appending');
+    $('<option value="' + amt + '" id="' + cityID + '">' + city + '</option>').appendTo('.selectCityB');
+
+    
+    });
+
+    
+    $(".selectCity").change(function()
+    {
+        var sel = $(this).children("option:selected");
+        city = sel.text();
+        amt = sel.attr("value");
+        metric = precise_round(amt*2.54,2);
+        $(".name").html(city);
+        $(".ammount").html(amt + " in. ");
+        $(".meters").html(metric + " cm ");
+        var object = document.getElementById("A1");
+        object.setAttribute("height", (amt*15));
+        object.setAttribute("y", (10+(397-amt*15)));
+        var animation = document.getElementById("A2");
+        animation.setAttribute("dur", 3);
+        //animation.addEventListener("keyup",function(){
+        //animation.beginElement();
+        //},false);
+        
+        $('#cylA').show();
+        $('.red').show();
+        $('.blue').show();
+        $('.borderRed').show();
+        $('.borderBlue').show();
+        //$('.selectCity').load('#cylA', function() {});
+    });
+    
+    $(".selectCityB").change(function()
+    {
+        var sel = $(this).children("option:selected");
+        city = sel.text();
+        amt = sel.attr("value");
+        metric = precise_round(amt*2.54,2);
+        $(".nameB").html(city);
+        $(".ammountB").html(amt + " in. ");
+        $(".metersB").html(metric + " cm ");
+        var object = document.getElementById("B1");
+        object.setAttribute("height", (amt*15));
+        object.setAttribute("y", (10+(397-amt*15)));
+        var animation = document.getElementById("B2");
+        animation.setAttribute("dur", 3);
+        //animation.addEventListener("keyup",function(){
+        //animation.beginElement();
+        //},false);
+        $('#cylB').show();
+        $('.redB').show();
+        $('.blueB').show();
+        $('.borderRedB').show();
+        $('.borderBlueB').show();
+        //$('#cylB').load('#cylB', function() {});
+    });
+    
+
+};
+</script>
+
 
     
 </head>
@@ -31,27 +119,16 @@
     
     <h1>Total precipitation in 2013 so far...</h1>
      <!--[if lte IE 8]>
-		<div style="margin:15px 0px 20px 30px;font-family:'Helvetica'; color:#000;font-size:14px;">
+		<div style="margin:15px 0px 0px 0px;font-family:'Helvetica'; color:#000;font-size:14px;">
 			<b>Please upgrade your browser to the latest version to view this grapihc interactively.</b>
-			
+			</div>
 		<style type="text/css">
                 #cylA {display:none;}
                 #cylB {display:none;}
                 .arrow {display:none;}
-                text {color:#fff; opacity: 0.0;}
                 </style>  
-		</div>
-                <![endif]-->
-    <!--[if IE 9]>
-	<style type="text/css">
-                
-                .arrow {display:none;}
-                
-                </style>	
-                
-    <![endif]-->
-                
-		
+												
+		<![endif]-->
     <span class="left">
         <select class="selectCity">
                         <option id="default">Select a city</option>
@@ -87,7 +164,6 @@
         </span>
             
         </div>
-        
  
       <div id="cylA">      
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -225,13 +301,6 @@
 <text transform="matrix(1.0153 0 0 1 14.8604 -58.1504)" font-family="'Helvetica'" font-size="18.0265">80 cm</text>
 </svg>
      </div>
-      
-    <!--[if lte IE 8]>
-		<div id="cover" style="margin:-50px 0px 0px 0px; width:100%; height:100px; background-color:#fff; position:relative; display:inline;">
-			 
-		</div>
-                
-		<![endif]-->  
        
     </span>
     
