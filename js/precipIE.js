@@ -56,7 +56,7 @@ $(xml).find("Row").each(function(){
         $(".ammount").html(amt + " in. ");
         $(".meters").html(metric + " cm ");
         var object = document.getElementById("A1");
-        object.setAttribute("height", (amt*14.98));
+        object.setAttribute("height", (amt*15));
         object.setAttribute("y", (549-amt*15));
         var animation = document.getElementById("A2");
         animation.setAttribute("dur", 3);
@@ -82,7 +82,7 @@ $(xml).find("Row").each(function(){
         $(".ammountB").html(amt + " in. ");
         $(".metersB").html(metric + " cm ");
         var object = document.getElementById("B1");
-        object.setAttribute("height", (amt*14.98));
+        object.setAttribute("height", (amt*15));
         object.setAttribute("y", (549-amt*15));
         var animation = document.getElementById("B2");
         animation.setAttribute("dur", 3);
